@@ -1,0 +1,36 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "airbnb"],
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "rules": {
+        "indent": "off",
+        "quotes": ["error", "double"],
+        "no-tabs": 0,
+        "max-len": ["error", { "ignoreComments": true, "code": 120, "comments": 150, "tabWidth": 4 }],
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "only-multiline",
+                "objects": "only-multiline",
+                "imports": "only-multiline",
+                "exports": "only-multiline",
+                "functions": "only-multiline"
+            }
+        ],
+        "no-mixed-spaces-and-tabs": 1,
+        "no-unreachable": 1,
+        "operator-linebreak": 0,
+        "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
+        "no-use-before-define": 1,
+        "arrow-body-style": "off",
+        "object-curly-newline": "warn",
+        "prefer-arrow-callback": "warn",
+        "camelcase": "warn"
+    }
+}
