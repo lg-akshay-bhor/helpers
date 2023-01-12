@@ -1,5 +1,5 @@
 const errorResponse = (data, message) => ({
-    // error : true,
+    error : true,
     data,
     message,
 });
