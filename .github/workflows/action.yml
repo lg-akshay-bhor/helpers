@@ -9,7 +9,7 @@ on:
       - LG-8317
 
 jobs:
-  publish-helpers:
+  publish-helpers-package:
     runs-on: ubuntu-latest
     permissions:
       contents: read
