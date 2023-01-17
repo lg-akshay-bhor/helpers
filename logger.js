@@ -1,5 +1,5 @@
 const winston = require("winston");
-const config = require("../config");
+const config = require("../../config");
 
 // eslint-disable-next-line new-cap
 const logger = new winston.createLogger({

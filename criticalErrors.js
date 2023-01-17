@@ -1,4 +1,4 @@
-const { SERVICE_NAME } = require("../utils/common");
+const { SERVICE_NAME } = require("../../utils/common");
 
 const criticalError = (message, ipAddress, loanApplicationId, errorCategory, metaData) => ({
     message,
