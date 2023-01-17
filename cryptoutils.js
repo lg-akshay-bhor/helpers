@@ -1,5 +1,5 @@
 var cryptoUtils = require('crypto');
-var config = require('../../config');
+var config = require('../../../config');
 
 /**
  * Function to encrypt a string.
