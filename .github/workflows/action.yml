@@ -6,7 +6,6 @@ on:
       - master
       - stage
       - qa
-      - LG-8317
 
 jobs:
   publish-helpers-package:
